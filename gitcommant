@@ -1,0 +1,13 @@
+print('hello')
+git log#查看提交日志
+git branch #查看分支
+git branch -a#查看远程分枝
+git init #做初始化
+git status#查看文件状态
+cat "文件名"#查看文件内容
+#修改git代码流程
+git pull origin master#远端代码提交到本地仓库
+vim '文件名'#进入进行修改
+git add "文件名"#把修改的代码放到本地仓库
+git commit -m "修改的注释"#写明修改的原因
+git push origin master#把代码推到远端 
